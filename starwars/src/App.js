@@ -38,7 +38,9 @@ class App extends Component {
           return (
             <li key={index}>
               <h1 className="name">{data.name}</h1>
-              <h2 className="height">{data.height}</h2>
+              <h2 className="films">{data.films}</h2>
+              <h2 className="birthYear">{data.birth_year}</h2>
+              <h2 className="gender">{data.gender}</h2>
             </li>
           )
         }
