@@ -27,11 +27,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
 - [ ] What does it mean to _think_ in react?
-
+*To think in components 
 - [ ] Describe state.
-
+*State drive our applications
 - [ ] Describe props.
-
+*Props stands for properties, we cannot change them, only receive them.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
