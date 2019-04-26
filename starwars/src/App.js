@@ -23,17 +23,27 @@ class App extends Component {
       })
       .then(data => {
         this.setState({ starwarsChars: data.results });
+        console.log(data);
       })
       .catch(err => {
         throw new Error(err);
       });
   };
 
+
   render() {
     return (
-      <div className="App">
-        <h1 className="Header">React Wars</h1>
-      </div>
+      <ul>
+        {this.state.starwarsChars.map(function (data, index) {
+          return (
+            <li key={index}>
+              <h1 className="name">{data.name}</h1>
+              <h2 className="height">{data.height}</h2>
+            </li>
+          )
+        }
+        )}
+      </ul>
     );
   }
 }
